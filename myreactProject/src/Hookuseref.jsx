@@ -10,6 +10,7 @@ function FocusInput() {
 
   return (
     <div>
+        <h1>UseRef </h1>
       <input ref={inputRef} type="text" placeholder="Click the button to focus me" />
       <button onClick={handleClick}>Focus the input</button>
     </div>
