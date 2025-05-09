@@ -4,6 +4,7 @@ import FocusInput from './Hookuseref';
 import UseMemoExample from './Hookusememo';
 import Container from './HookUseContext/Container';
 import React, { createContext, use, useState } from "react";
+import Hookreduce from "./HookuseReducer/UseReducer";
 
 export const ThemeContext = createContext();
 
@@ -17,10 +18,10 @@ function App() {
         {/* <Hookusestate/> */}
         {/* <FocusInput/> */}
         {/* <UseMemoExample/> */}
-        <ThemeContext.Provider value={{theme, setTheme}}>
+        {/* <ThemeContext.Provider value={{theme, setTheme}}>
             <Container/>
-        </ThemeContext.Provider>
-       
+        </ThemeContext.Provider> */}
+       <Hookreduce/>
     </>
 }
 
