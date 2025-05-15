@@ -6,6 +6,7 @@ import Container from './HookUseContext/Container';
 import React, { createContext, use, useState } from "react";
 import Hookreduce from "./HookuseReducer/UseReducer";
 import Hookusecallback from "./HookuseCallback/Hookusecallback";
+import ResponsiveBox from "./Hooklayouteffect/ResponsiveBox";
 
 export const ThemeContext = createContext();
 
@@ -23,7 +24,8 @@ function App() {
             <Container/>
         </ThemeContext.Provider> */}
        {/* <Hookreduce/> */}
-       <Hookusecallback/>
+       {/* <Hookusecallback/> */}
+       <ResponsiveBox/>
     </>
 }
 
