@@ -1,0 +1,71 @@
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  text-align: center;
+  background: #ffddd2;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+/* Output Display */
+.output {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: rgb(2, 2, 2);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+.output:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons - common style */
+button {
+  font-size: 1.2rem;
+  padding: 0.6rem 1.4rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Increase button */
+.increase-btn {
+  background-color: #449644;
+  color: white;
+}
+
+.increase-btn:hover {
+  background-color: #0a701b;
+}
+
+/* Decrease button */
+.decrease-btn {
+  background-color: #e40101;
+  color: white;
+}
+
+.decrease-btn:hover {
+  background-color: #aa0000;
+}
+
+/* Reset button */
+.reset-btn {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #005761;
+}
